@@ -1,0 +1,221 @@
+body{
+    background-color: gray;
+}
+
+body.film-body{
+    background: #833ab4;
+    background-image: linear-gradient(145deg, #ee82ee, slateblue, #ffd86a, purple);
+}
+
+p {
+    text-indent: 10px;
+    /* абзац*/
+    margin-left: 20px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    /* без підкреслень*/
+}
+
+.block1 {
+    height: 350px;
+    border-bottom: 3px solid blue;
+    /* лінія*/
+}
+
+.imageAnna {
+    width: 155px;
+    height: 250px;
+    margin-left: 0px;
+    /* вирівнювання по лівому краю*/
+}
+
+.mybook {
+    text-decoration: underline;
+    /* підкреслений текст*/
+    font-weight: bold;
+    /* жирний текст*/
+    color: blue;
+    text-align: center;
+
+}
+
+.name {
+    font-style: italic;
+    /*курсив*/
+    text-align: center;
+    /*текст по центрі*/
+    color: blue;
+
+}
+
+.block11 {
+
+    margin-top: -200px;
+    /* перемістити верх*/
+
+    margin-left: 150px;
+
+}
+.namebook{
+    text-align: left;
+}
+.namebook1{
+    text-align: left;
+}
+.namebook2{
+     text-align: left;
+}
+.namebook3{
+    text-align: left;
+}
+
+.block2 {
+    height: 180px;
+
+    border-bottom: 3px solid blue;
+
+
+}
+
+.opus {
+    text-align: right;
+    font-style: italic;
+}
+
+.block3 {
+    height: 600px;
+    border-bottom: 3px solid blue;
+}
+
+.proavtora {
+    text-align: right;
+    font-style: italic;
+}
+
+.imgAvtor {
+    float: left;
+    height: 250px;
+    width: 155px
+}
+
+.zmist {
+    text-align: center;
+    font-weight: bold;
+    color: cornflowerblue
+        
+}
+
+/*=======HandBook=================*/ 
+.mainTable {
+    border-collapse: collapse;
+    }
+
+.mainTable td {
+    border: 1px solid black;
+
+}
+
+.mainTable {
+    border: 1px solid blue;
+}
+/*===========================film===================================*/
+h2 {
+    text-align: center;
+    font-style: italic;
+    color:darkturquoise;
+    text-shadow: 3px 5px 5px #FF00FF;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+.block {
+    width: 150%;
+    height: 350px;
+    text-align: right;
+
+
+
+}
+
+
+.imgfon {
+    border: 6px;
+    float: left;
+    margin: 2px;
+    position: relative;
+    overflow: hidden;
+    width: 170px;
+    height: 290px;
+    margin-left: 3px;
+    border-radius: 5px;
+
+}
+
+.nameBlok {
+    text-align: left;
+    font-style: italic;
+    text-indent: 15px;
+    color: aliceblue;
+
+
+}
+
+.photo {
+    text-align: center;
+    font-style: italic;
+    color: lawngreen;
+    text-shadow: 3px 5px 6px #6C9;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+
+.BlockImg {
+    width: 100%;
+    height: 650px;
+
+}
+
+.img_page {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.foto_film {
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.foto_film img {
+    margin: auto;
+    width: 320px;
+    height: 240px;
+    border-radius: 20px;
+    animation: bounce 1s;
+}
+
+
+.BlockOpus {
+    width: 100%;
+    height: 650px;
+
+}
+
+.opus1 {
+    text-align: left;
+    color: crimson;
+    font-style: italic;
+    font-size: 25px;
+
+}
+
